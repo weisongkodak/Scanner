@@ -76,8 +76,8 @@ public class LoginActivity extends BaseActivity {
                 LoginResult loginResult = gson.fromJson(resultStr, LoginResult.class);//对于javabean直接给出class实例
                 if(loginResult.getStatus() == 1){
                    //startActivity(new Intent(LoginActivity.this,ScannerSelectActivity.class));
-                    goToOrder("201802260054-1");
-                    //getToTire("71432407973");
+                    //goToOrder("201802260054-1");
+                    getToTire("GC-TS-03-402");
                    // LoginActivity.this.finish();
                 }else {
                     Toast.makeText(mContext,loginResult.getMsg(),Toast.LENGTH_SHORT).show();
@@ -120,8 +120,6 @@ public class LoginActivity extends BaseActivity {
 
 
     private void getToTire(String code){
-        code = "201802260054-1";
-        //code = "71432407973";
         new GetProductAppTask(mContext, code, new TaskCallback() {
             @Override
             public void callback(Object result) {
