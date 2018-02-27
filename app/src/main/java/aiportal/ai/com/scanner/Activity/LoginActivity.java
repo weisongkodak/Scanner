@@ -25,7 +25,6 @@ import aiportal.ai.com.scanner.interfac.TaskCallback;
 import aiportal.ai.com.scanner.tasks.GetProductAppTask;
 import aiportal.ai.com.scanner.tasks.LoginTask;
 import aiportal.ai.com.scanner.tasks.ScannerTask;
-
 public class LoginActivity extends BaseActivity {
     private Context mContext;
     private Button login;
@@ -33,7 +32,7 @@ public class LoginActivity extends BaseActivity {
     private final String USER_NAME = "userName";
     private final String PASSWORD = "password";
     private SharedPreferences preferences;
-
+//sadfasdf
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
