@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="background">#ededed</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="titiebar_background">#E51480CC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="title_text">#E51480CC</color>
+    <color name="car_yellow">#FB8B06</color>
+    <color name="orange">#ff6634</color>
+    <color name="red">#FFFF0015</color>
+<color name="edit_textColorHint">#858585</color>
+    <color name="content">#000000</color>
+</resources>
