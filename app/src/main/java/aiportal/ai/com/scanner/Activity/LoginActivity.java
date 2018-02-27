@@ -87,6 +87,7 @@ public class LoginActivity extends BaseActivity {
             }
         }).execute();
     }
+//
 
     private void goToOrder(String code) {
         new ScannerTask(mContext, code, new TaskCallback() {
